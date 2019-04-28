@@ -6,6 +6,8 @@
 
 header {
     background-color: purple;
+    grid-column: 1/4;
+    grid-row: 1/2;
 }
 
 .back, .next {
@@ -14,5 +16,16 @@ header {
 
 .img-section {
     background-color: limegreen
+}
+
+/* .img-section > img {
+    
+} */
+
+.my-site {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr auto 1fr;
+    /*height: 100vh;*/
 }
 
