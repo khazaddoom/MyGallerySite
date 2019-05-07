@@ -24,6 +24,8 @@
     grid-template-columns: 1fr auto 1fr;
     /*height: 100vh;}*/
 
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -31,7 +33,7 @@
 body {
     margin: 0;
     background: #222;
-    font-family: sans-serif;
+    font-family: 'Gugi', cursive;
 }
 
 :root {
@@ -60,6 +62,7 @@ header .nav-toggle:checked ~ nav  {
 
    display: block;
 }
+
 
 nav {
     position: absolute;
@@ -92,6 +95,8 @@ nav a:hover {
     color: #000;
 }
 
-
+.nav-toggle {
+    display: none;
+}
 
     
