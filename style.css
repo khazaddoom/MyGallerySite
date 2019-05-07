@@ -58,7 +58,7 @@ header {
 
 header .nav-toggle:checked ~ nav  {
 
-    display: block;
+   display: block;
 }
 
 nav {
