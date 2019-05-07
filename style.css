@@ -42,4 +42,16 @@
     header {
         background-color: var(--background);
         text-align: center;
+        display: flex;
     }
+
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+    }
+
+    
