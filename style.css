@@ -106,11 +106,32 @@ nav a:hover {
     top: 0;
     left: 0;
     margin-left: 1em;
-
     height: 100%;
     display: flex;
     align-items: center;
     
 }
 
-    
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    background: white;
+    width: 2em;
+    height: 2px;
+    display: block;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before, .nav-toggle-label span::after {
+    position: absolute;
+    content: '';
+}
+
+.nav-toggle-label span::before {
+    top: 7px
+}
+
+.nav-toggle-label span::after {
+    bottom: 7px
+}
