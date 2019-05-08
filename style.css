@@ -100,4 +100,17 @@ nav a:hover {
     display: none;
 }
 
+.nav-toggle-label {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
     
