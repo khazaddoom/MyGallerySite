@@ -175,5 +175,6 @@ nav a:hover {
 
     display: flex;
     flex-wrap: wrap;  
-    align-items: flex-end;
+    flex-direction: row;
+    
 }
