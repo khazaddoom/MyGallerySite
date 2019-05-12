@@ -58,7 +58,7 @@ header {
     grid-template-columns: 1fr auto 1fr;
     /*height: 100vh;}*/
 
-@import url('https://fonts.googleapis.com/css?family=Gugi');
+/* @import url('https://fonts.googleapis.com/css?family=Gugi');
 
 *, *::after, *::before {
     box-sizing: border-box;
@@ -168,5 +168,5 @@ nav a:hover {
 
 .nav-toggle-label span::after {
     bottom: 7px
-}
->>>>>>> 108a93b476fd93aa8f41cc08a8ab92d505e9ff55
+} */
+
